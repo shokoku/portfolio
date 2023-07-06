@@ -383,3 +383,26 @@ button:focus {
   height: 2px;
   background-color: var(--color-accent);
 }
+
+/* Educations */
+#educations {
+  background-color: var(--color-primary-variant);
+  color: var(--color-text);
+}
+
+.educations {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+.education {
+  position: relative;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.education__img {
+  width: 100%;
+}
