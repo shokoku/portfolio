@@ -591,6 +591,10 @@ button:focus {
     margin-bottom: 0.5rem;
   }
 
+  .home__avatar {
+    display: none;
+  }
+
   .majors {
     flex-direction: column;
     align-items: center;
